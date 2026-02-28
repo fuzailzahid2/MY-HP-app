@@ -152,13 +152,13 @@ const SECTION_QUALITY: NavSection = {
   label: "Quality Portal",
   icon: ShieldCheck,
   children: [
-    { label: "Documents", href: "#", icon: FileText },
+    { label: "Documents", href: "/quality/ims-documents", icon: FileText },
     { label: "MOC", href: "/quality/moc", icon: FileEdit },
     { label: "NCO / Non-Conformance", href: "/quality/nco", icon: AlertTriangle },
     { label: "CAPA", href: "/quality/capa", icon: Target },
     { label: "Inspections", href: "/quality/inspections", icon: Search },
     { label: "Audits", href: "/quality/audits", icon: ClipboardList },
-    { label: "Vendor Quality", href: "#", icon: Store },
+    { label: "Vendor Quality", href: "/quality/vendor-quality", icon: Store },
   ],
 };
 
